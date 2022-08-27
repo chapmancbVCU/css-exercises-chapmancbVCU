@@ -1,8 +1,4 @@
-odd {
-    font-family: Verdana, "DejaVu Sans", sans-serif;
-}
-
-three {
+.three {
     font-size: 24px;
 }
 
@@ -12,8 +8,12 @@ three {
 }
 
 #four {
-    color: lightgreen;
+    background-color: lightgreen;
     font-size: 24px;
     font-weight: bold;
 }
 
+.odd {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
