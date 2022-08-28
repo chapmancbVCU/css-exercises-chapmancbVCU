@@ -17,8 +17,6 @@ body{
   font-weight: 800;
 }
 
-
-
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -31,9 +29,7 @@ body{
   font-weight: bold;
 } 
 
-
-
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
