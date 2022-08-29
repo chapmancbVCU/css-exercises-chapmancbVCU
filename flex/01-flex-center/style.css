@@ -4,7 +4,9 @@
   width: 400px;
   height: 300px;
   display: flex;
+  /* Place in center row */
   align-items: center;
+  /* Place in center column */
   justify-content: center;
 }
 
