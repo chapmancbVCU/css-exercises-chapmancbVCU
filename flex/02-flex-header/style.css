@@ -1,6 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  /* Centers logo vertically */
+  align-items: center;
+  /* Centers all contents horizontally */
+  justify-content: center;
 }
 
 .logo {
