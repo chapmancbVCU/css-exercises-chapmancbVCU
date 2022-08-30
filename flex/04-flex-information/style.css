@@ -36,6 +36,7 @@ img {
   display: flex;
   /* Centers title */
   justify-content: center;
+  
 }
 
 .flex-items {
@@ -53,6 +54,6 @@ img {
   /* Align images center */
   align-items: center;
 
-  /* Adding padding between each item */
-  padding: 52px;
+  /* Adding space between each item using margin shorthand */
+  margin: 0 52px;
 }
