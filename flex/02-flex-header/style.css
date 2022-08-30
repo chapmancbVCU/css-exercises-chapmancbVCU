@@ -17,15 +17,19 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
+  /* this removes the dots on the list items */
   list-style-type: none;
+  padding: 10px;
+  /* Causes links to be in row instead of stacked on top of each other */
   display: flex;
+  /* Creates space between items */
   column-gap: 2em;
 }
 
 a {
   font-size: 22px;
   background: white;
+  /* Adding padding fixes issue where right items are right next to edge of screen */
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
@@ -33,9 +37,11 @@ a {
 }
 
 .left-links {
+  /* Forces to left */
   margin-right: auto;
 }
 
 .right-links {
+  /* Forces to right */
   margin-left: auto;
 }
