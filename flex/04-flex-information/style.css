@@ -42,3 +42,13 @@ img {
   /* Display flowers and descriptions in row. */
   display: flex;
 }
+
+.flex-flower-and-description {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  /* Align text center */
+  text-align: center;
+  /* Align images center */
+  align-items: center;
+}
