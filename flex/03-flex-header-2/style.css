@@ -53,7 +53,9 @@ a {
 
 ul {
   list-style-type: none;
+  /* Causes links to appear in a row instead of stacked on top of each other */
   display: flex;
+  
 }
 
 .links {
