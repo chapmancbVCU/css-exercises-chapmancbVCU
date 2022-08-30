@@ -36,6 +36,8 @@ img {
   display: flex;
   /* Centers title */
   justify-content: center;
+
+  /* Add spacing of 32px between title and items. */
   margin-bottom: 32px;
 }
 
