@@ -31,3 +31,9 @@ img {
   display: flex;
   flex-direction: column;
 }
+
+.flex-title {
+  display: flex;
+  /* Centers title */
+  justify-content: center;
+}
