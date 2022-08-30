@@ -37,3 +37,8 @@ img {
   /* Centers title */
   justify-content: center;
 }
+
+.flex-items {
+  /* Display flowers and descriptions in row. */
+  display: flex;
+}
