@@ -52,4 +52,7 @@ img {
   text-align: center;
   /* Align images center */
   align-items: center;
+
+  /* Adding padding between each item */
+  padding: 52px;
 }
