@@ -59,10 +59,16 @@ ul {
 }
 
 .links {
-  margin: 16px;
+  padding: 16px;
 }
 
 .notifications {
   /* Forces notifications to right side of header */
   margin-left: auto;
+}
+
+/* For divs that contains logo and links */
+.left {
+  display: flex;
+  align-items: center;
 }
