@@ -56,5 +56,6 @@ ul {
 }
 
 .notifications {
-
+  /* Forces notifications to right side of header */
+  margin-left: auto;
 }
