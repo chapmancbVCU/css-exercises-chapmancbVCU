@@ -41,6 +41,7 @@ img {
 .flex-items {
   /* Display flowers and descriptions in row. */
   display: flex;
+  justify-content: center;
 }
 
 .flex-flower-and-description {
