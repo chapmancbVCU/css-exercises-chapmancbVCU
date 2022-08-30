@@ -24,3 +24,10 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Class for all content where we will invoke the flex 
+   display property */
+.flex-content {
+  display: flex;
+  flex-direction: column;
+}
