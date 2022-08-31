@@ -23,6 +23,8 @@ body {
   /* Add padding around edge of modal. */
   padding: 10px;
   display: flex;
+  /* Need to align direct child divs to be aligned as a column. */
+  flex-direction: column;
 }
 
 .icon {
