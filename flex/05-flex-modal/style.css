@@ -78,3 +78,7 @@ button.cancel {
 .header-elements {
   display: flex; 
 }
+
+.header {
+  display: flex;
+}
