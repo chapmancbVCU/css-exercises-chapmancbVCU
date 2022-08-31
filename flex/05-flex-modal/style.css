@@ -20,11 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* Add padding around edge of modal. */
   padding: 10px;
-  display: flex;
-  /* Sets child elements in column so header-elements, div with class text,
-     and div with button class appear in column. */
-  flex-direction: column;
 }
 
 .icon {
@@ -38,9 +35,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
-  /* Keep content to left side of dialog box */
-  /* margin-right: auto; */
 }
 
 .close-button {
@@ -54,11 +48,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* Add flex */
-  display: flex;
-  /* Pushes close button to right */
-  margin-left: auto;
 }
 
 button {
@@ -76,13 +65,4 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-}
-
-/* Applies flex properties to icon, header, and close-button div elements */
-.header-elements {
-  display: flex; 
-}
-
-.header {
-  display: flex;
 }
