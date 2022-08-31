@@ -69,5 +69,5 @@ button.cancel {
 
 /* Applies flex properties to icon, header, and close-button div elements */
 .header-elements {
-  
+  display: flex; 
 }
