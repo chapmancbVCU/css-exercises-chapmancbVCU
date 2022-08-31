@@ -71,6 +71,7 @@ button.cancel {
 }
 
 .header {
+  /* We want bold and slightly larger text. */
   font-weight: bold;
   font-size: larger;
 }
