@@ -39,7 +39,7 @@ body {
   justify-content: center;
   display: flex;
   /* Keep content to left side of dialog box */
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 .close-button {
