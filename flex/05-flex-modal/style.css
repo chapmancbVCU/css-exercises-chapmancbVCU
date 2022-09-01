@@ -88,6 +88,7 @@ button.cancel {
 /* Class for setting up flex around divs with the header, close-button,
    text, and button classes. */
 .right {
+  padding-left: 10px;
   display: flex;
   /* We want divs to be in a column so that header, text, and buttons
      are aligned with each other. */
