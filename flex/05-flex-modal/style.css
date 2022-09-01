@@ -37,6 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Set to 0 to prevent icon from being deformed */
+  flex-shrink: 0;
 }
 
 .close-button {
