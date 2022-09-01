@@ -36,6 +36,8 @@ input {
   /* Removes dots on list items. */
   list-style-type: none;
   display: flex;
+  /* Push links to left side of page. */
+  margin-right: auto;
 }
 
 .right-links {
