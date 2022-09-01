@@ -46,7 +46,7 @@ input {
 }
 .footer {
   padding: 10px;
-  background-color: rgb(235, 232, 232);
+  background-color: #eeeeee;
   display: flex;
   /* We want footer to remain at bottom of page. */
   margin-top: auto;
