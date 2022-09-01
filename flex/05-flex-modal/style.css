@@ -38,6 +38,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Forces icon to the left */
+  margin-right: auto;
 }
 
 .close-button {
@@ -51,6 +53,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Forces close button to right. */
+  margin-left: auto;
 }
 
 button {
@@ -76,6 +80,7 @@ button.cancel {
   font-size: larger;
 }
 
+/* Class for working with icon, header, and close-button divs. */
 .header-items {
   display: flex;
 }
