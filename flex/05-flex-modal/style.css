@@ -23,8 +23,6 @@ body {
   /* Add padding around edge of modal. */
   padding: 10px;
   display: flex;
-  /* Need to align direct child divs to be aligned as a column. */
-  flex-direction: column;
 }
 
 .icon {
@@ -38,8 +36,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Forces icon to the left */
-  margin-right: auto;
 }
 
 .close-button {
@@ -53,8 +49,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Forces close button to right. */
-  margin-left: auto;
 }
 
 button {
@@ -78,9 +72,4 @@ button.cancel {
   /* We want bold and slightly larger text. */
   font-weight: bold;
   font-size: larger;
-}
-
-/* Class for working with icon, header, and close-button divs. */
-.header-items {
-  display: flex;
 }
