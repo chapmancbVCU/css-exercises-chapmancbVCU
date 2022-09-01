@@ -42,4 +42,6 @@ input {
   /* Removes dots on list items. */
   list-style-type: none;
   display: flex;
+  /* Push links to right side of page. */
+  margin-left: auto;
 }
