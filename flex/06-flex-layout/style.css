@@ -71,3 +71,7 @@ input {
   /* Push links to right side of page. */
   margin-left: auto;
 }
+
+a:link {
+  color: black;
+}
