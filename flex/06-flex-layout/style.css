@@ -54,6 +54,8 @@ input {
 .left-links {
   /* Removes dots on list items. */
   list-style-type: none;
+  /* We want some spacing between links */
+  column-gap: 1em;
   display: flex;
   /* Push links to left side of page. */
   margin-right: auto;
@@ -62,6 +64,8 @@ input {
 .right-links {
   /* Removes dots on list items. */
   list-style-type: none;
+  /* We want some spacing between links */
+  column-gap: 1em;
   display: flex;
   /* Push links to right side of page. */
   margin-left: auto;
