@@ -23,7 +23,8 @@ body {
   /* Add padding around edge of modal. */
   padding: 10px;
   display: flex;
-  
+  /* Make sure icon class and  header-class are aligned horizontally */
+  justify-content: center;
 }
 
 .icon {
@@ -85,6 +86,8 @@ button.cancel {
   /* Add space between this class and text below it. */
   padding-bottom: 10px;
   display: flex;
+  /* Make sure title and close button are aligned horizontally. */
+  justify-content: center;
 }
 
 /* Class for setting up flex around divs with the header, close-button,
