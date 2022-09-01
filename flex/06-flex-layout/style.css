@@ -29,10 +29,12 @@ input {
 }
 
 .header {
+  padding: 10px;
   display: flex;
 }
 
 .footer {
+  padding: 10px;
   display: flex;
 }
 
