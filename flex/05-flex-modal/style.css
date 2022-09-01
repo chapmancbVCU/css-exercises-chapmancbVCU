@@ -96,3 +96,7 @@ button.cancel {
      are aligned with each other. */
   flex-direction: column;
 }
+
+.text {
+  padding-bottom: 10px;
+}
