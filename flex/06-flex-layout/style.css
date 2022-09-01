@@ -31,6 +31,8 @@ input {
 .header {
   padding: 10px;
   display: flex;
+  /* We want header to remain at top of page. */
+  margin-bottom: auto;
 }
 
 .content {
@@ -45,6 +47,7 @@ input {
 .footer {
   padding: 10px;
   display: flex;
+  /* We want footer to remain at bottom of page. */
   margin-top: auto;
 }
 
