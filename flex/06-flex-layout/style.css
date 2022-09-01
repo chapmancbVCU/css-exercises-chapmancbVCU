@@ -31,3 +31,15 @@ input {
 .header {
   display: flex;
 }
+
+.left-links {
+  /* Removes dots on list items. */
+  list-style-type: none;
+  display: flex;
+}
+
+.right-links {
+  /* Removes dots on list items. */
+  list-style-type: none;
+  display: flex;
+}
