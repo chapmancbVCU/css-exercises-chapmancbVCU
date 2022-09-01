@@ -45,6 +45,7 @@ input {
 .footer {
   padding: 10px;
   display: flex;
+  margin-top: auto;
 }
 
 .left-links {
