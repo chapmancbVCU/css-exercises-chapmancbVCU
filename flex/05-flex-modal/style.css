@@ -50,6 +50,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Forces close button to right side of dialog box. */
+  margin-left: auto;
 }
 
 button {
