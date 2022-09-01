@@ -32,6 +32,10 @@ input {
   display: flex;
 }
 
+.footer {
+  display: flex;
+}
+
 .left-links {
   /* Removes dots on list items. */
   list-style-type: none;
