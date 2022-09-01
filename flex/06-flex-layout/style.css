@@ -33,6 +33,15 @@ input {
   display: flex;
 }
 
+.content {
+  display: flex;
+  /* We want everything to be in a column */
+  flex-direction: column;
+  /* Centers items vertically */
+  align-items: center;
+  /* Centers items horizontally */
+  justify-items: center;
+}
 .footer {
   padding: 10px;
   display: flex;
