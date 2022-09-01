@@ -82,6 +82,8 @@ button.cancel {
 /* Class for setting flex around divs with header and close-button
    classes. */
 .header-items {
+  /* Add space between this class and text below it. */
+  padding-bottom: 10px;
   display: flex;
 }
 
