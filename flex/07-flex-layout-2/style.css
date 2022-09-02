@@ -38,6 +38,10 @@ body {
   flex-shrink: 0;
 }
 
+ul {
+  /* Remove the dots on the list items */
+  list-style-type: none;
+}
 /* For div with class cards with divs with card children */
 .cards {
   display: flex;
