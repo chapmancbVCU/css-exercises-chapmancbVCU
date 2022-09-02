@@ -43,6 +43,15 @@ ul {
   list-style-type: none;
   font-size: 24px;
 }
+
+
+a:link {
+  /* Set font color of links to white */
+  color: white;
+  /* Remove underlines from links */
+  text-decoration: none;
+}
+
 /* For div with class cards with divs with card children */
 .cards {
   display: flex;
