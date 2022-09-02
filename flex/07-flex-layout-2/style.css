@@ -41,6 +41,7 @@ body {
 ul {
   /* Remove the dots on the list items */
   list-style-type: none;
+  font-size: 24px;
 }
 /* For div with class cards with divs with card children */
 .cards {
