@@ -24,11 +24,18 @@ body {
 /* div that surrounds sidebar and cards */
 .content {
   display: flex;
+  /* We want content to be in a row for sidebar and cards */
+  flex-direction: row;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+}
+
+/* For div with class cards with divs with card children */
+.cards {
+  display: flex;
 }
 
 .card {
