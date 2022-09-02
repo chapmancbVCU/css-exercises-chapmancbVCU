@@ -27,6 +27,8 @@ body {
   display: flex;
   /* We want content to be in a row for sidebar and cards */
   flex-direction: row;
+  /* Make contents fill up available space */
+  flex-grow: 1;
 }
 
 .sidebar {
@@ -56,7 +58,11 @@ a:link {
 .cards {
   padding: 32px;
   display: flex;
-  flex-flow: row wrap;
+  /* Set direction to row */
+  flex-direction: row;
+  /* Set to wrap */
+  flex-wrap: wrap;
+  /* Set row and column gaps */
   row-gap: 10px;
   column-gap: 10px;
 }
@@ -69,6 +75,7 @@ a:link {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 10px;
   display: flex;
   /* Set height of cards */
   height: 300px;
