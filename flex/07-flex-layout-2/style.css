@@ -27,7 +27,7 @@ body {
   display: flex;
   /* We want content to be in a row for sidebar and cards */
   flex-direction: row;
-  /* Make contents fill up available space */
+  /* We want content to grow to fill space. */
   flex-grow: 1;
 }
 
@@ -45,7 +45,6 @@ ul {
   list-style-type: none;
   font-size: 24px;
 }
-
 
 a:link {
   /* Set font color of links to white */
@@ -67,18 +66,17 @@ a:link {
   column-gap: 10px;
 }
 
-.cards > * {
-  flex: 1;
-}
-
 .card {
+  /* We do not want to use flex here.  Set height and width 
+     to make thins work */
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 10px;
-  display: flex;
-  /* Set height of cards */
+  /* We need to set height of cards */
   height: 300px;
+  /* We need to set width of cards */
+  width: 300px;
 }
 
 .footer {
