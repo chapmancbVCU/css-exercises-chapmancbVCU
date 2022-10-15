@@ -8,6 +8,11 @@ body, html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 300px 1200px;
+  grid-template-rows: 100px 100px 500px 100px;
+  gap: 15px;
 }
 
 .container div {
@@ -21,18 +26,33 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2
 }
 
 .sidebar {
   background-color: #FF7755;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 .nav {
   background-color: #00DDFF;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .article {
   background-color: #bccbde;
+  /* Shorthand. */
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 .article p {
@@ -44,4 +64,7 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  /* Very short hand: 
+  grid-row-start / grid-column-start / grid-row-end / grid-column-end */
+  grid-area: 4 / 1 / 5 / 3;
 }
